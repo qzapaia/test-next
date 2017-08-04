@@ -1,0 +1,20 @@
+{
+  "name": "test-next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "postinstall": "npm run build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "beta",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

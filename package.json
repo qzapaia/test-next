@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "postinstall": "npm run build",
+    "postinstall": "yarn run build",
     "start": "next start"
   },
   "dependencies": {

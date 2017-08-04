@@ -7,7 +7,7 @@
     "node": "8.0.0"
   },
   "scripts": {
-    "heroku-postinstall": "npm run build",
+    "heroku-postbuild": "npm run build",
     "dev": "next",
     "build": "next build",
     "start": "NODE_ENV=production node server"
